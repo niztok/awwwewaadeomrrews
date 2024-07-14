@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+.go-back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: red;
+  border: 2px solid red;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.go-back-button:hover {
+  background-color: red;
+  color: black;
+}
